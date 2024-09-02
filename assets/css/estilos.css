@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    background-color: white;
+    padding-block-start: 20px;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    background-color: white;
+
+}
+
+aside p {
+    padding-block-start: 10px;
+
+
+}
+
+#parrafoPresentacion{
+    padding: 10px;
+    font-size: "18px"
+}
+
+#divEspecial{
+    background-color: green; 
+    color: yellow;
+}
+
+#contenedorForm{
+    background-color: lightgreen;
+    padding: 10px;
+
+
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    #divEspecial{
+        background-color: aqua;
+        color: brown;
+    }
+
+    #contenedorForm{
+        background-color: orange;
+    }
+
+
+  }

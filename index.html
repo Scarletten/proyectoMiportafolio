@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>Portafolio 2024</title>
+		<link rel="stylesheet" href="./assets/css/css_bs/bootstrap.css">
+		<link rel="stylesheet" href="./assets/css/estilos.css">
+	</head>
+	<body onload="asignarEventos()">
+
+		<header class="col-xs-12 bg-info">
+			<h1 id="tituloEspecial">Scarlette Norambuena N.</h1>
+			<h2 id="subtitulo">Mi Portafolio 2024</h2>
+		</header>
+
+		<main class="container">
+			<div class="row">
+				<article class="col-xs-12 col-md-8 bg-warning">
+					<p id="parrafoPresentacion"> Actualmente: Estudiante de Desarrollo Front End Trainee</p>
+					<ul>
+						<dl id="tituloLista"> Manejo de: <dl>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Javascript</li>
+					</ul>
+					<button class="btn btn-primary" onclick="cambiarColorTitulo()"> Cambiar titulo</button>
+				</article>
+				<aside class="col-xs-12 col-md-4 bg-primary" >
+					<p> Mis habilidades y competencias</p>
+					<ul>
+						<li>Proactiva</li>
+						<li>Formación continua</li>
+						<li>Perseverante</li>
+						<li>Organizada</li>
+					</ul>
+						<div id="divEspecial">
+							<p>Mis Otras aficiones</p>
+							<ul>
+								<li> El café de especialidad</li>
+								<li> Videojuegos</li>
+								<li>Juegos de mesa</li>
+							</ul>
+						</div>
+
+						<div id="contenedorForm">
+									<form>
+									<div class="mb-3">
+										<label for="emailContacto" class="form-label">Email:</label>
+										<input type="email" class="form-control" id="emailContacto" aria-describedby="emailHelp">
+										<div id="emailHelp" class="form-text">No compartiremos su email con nadie.</div>
+									</div>
+									<div class="mb-3">
+										<label for="telefonoContacto" class="form-label">Teléfono:</label>
+										<input type="number" class="form-control" id="telefonoContacto">
+									</div>
+
+									<button id="btnForm" type="button" class="btn btn-success">Enviar</button>
+									</form>
+						</div>
+				</aside>
+			</div>
+		</main>
+
+		
+		<footer class="col-xs-12 bg-danger">
+			<small>Desarrollado por : Scarlette Norambuena</small>
+		</footer>
+		<script src="./assets/js/js_bs/bootstrap.bundle.js"></script>
+		<script src="./assets/js/logica.js"></script>
+	</body>
+</html>
